@@ -1,0 +1,19 @@
+.header {
+  grid-area: h;
+  background-color: #343a40;
+}
+.headerLogo {
+  padding: 10px 0 10px 10px;
+}
+.headerLogo img {
+  width: 40px;
+  margin-right: 15px;
+}
+.link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}

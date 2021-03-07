@@ -1,0 +1,17 @@
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item button {
+  padding: 0.5em;
+  background: #fff;
+  color: #343a40;
+  transition: 0.5s;
+  border: 2px solid #343a40;
+  border-radius: 3px;
+}
+.item button:hover {
+  background: #343a40;
+  color: #fff;
+}

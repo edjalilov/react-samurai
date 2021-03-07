@@ -1,0 +1,21 @@
+.nav {
+  grid-area: n;
+  background-color: #343a40;
+}
+.navLink {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navLink.active {
+  color: goldenrod;
+}
+.navLink:hover {
+  text-decoration: underline;
+}
+.navItem {
+  margin-bottom: 10px;
+}
+.nav ul {
+  padding: 20px 0 0 20px;
+}
