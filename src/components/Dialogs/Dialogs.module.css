@@ -1,0 +1,38 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+}
+
+.dialogsItems {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.dialog {
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.2s;
+  color: #343a40;
+}
+.dialog:hover {
+  background: #343a40;
+  color: #fff;
+}
+
+.dialog.active {
+    color: goldenrod;
+}
+
+.messages {
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.message {
+    padding: 10px;
+}
