@@ -1,0 +1,14 @@
+.dialog {
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.2s;
+  color: #343a40;
+}
+.dialog:hover {
+  background: #343a40;
+  color: #fff;
+}
+
+.dialog.active {
+  color: goldenrod;
+}
