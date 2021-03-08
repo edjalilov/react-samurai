@@ -1,15 +1,31 @@
-.item {
+/* .item {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+} */
+
+.item textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  resize: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #c7c5c5;
+}
+
+.btnWrapper {
+  position: relative;
 }
 .item button {
   padding: 0.5em;
   background: #fff;
   color: #343a40;
   transition: 0.5s;
-  border: 2px solid #343a40;
+  border: 1px solid #343a40;
   border-radius: 3px;
+  position: absolute;
+  right: 0;
 }
 .item button:hover {
   background: #343a40;

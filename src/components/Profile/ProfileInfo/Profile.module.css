@@ -1,0 +1,36 @@
+.descriptionBlock {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    margin: 15px 0 30px;
+    border-radius: 5px;
+    padding: 18px;
+    border: 1px solid #c7c5c5;
+}
+
+.descriptionBlock img {
+    width: 180px;
+    border-radius: 3px;
+    margin-top: -80px;
+}
+
+.info {
+    margin-left: 30px;
+}
+
+.infoTite {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #343a40;
+}
+
+.infoText {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.infoText span {
+    opacity: 0.7;
+    color: #343a40;
+    margin-right: 5px;
+}
