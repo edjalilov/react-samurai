@@ -12,3 +12,10 @@
   border-radius: 5px;
   border: 1px solid #c7c5c5;
 }
+
+.messages {
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #c7c5c5;
+}
