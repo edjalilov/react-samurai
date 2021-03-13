@@ -1,12 +1,14 @@
-.nav {
+.navbar {
   grid-area: n;
   background-color: #343a40;
+}
+.navbarItem {
+  padding: 20px;
 }
 .navLink {
   color: #fff;
   text-decoration: none;
 }
-
 .navLink.active {
   color: goldenrod;
 }
@@ -16,6 +18,29 @@
 .navItem {
   margin-bottom: 15px;
 }
-.nav ul {
+
+.friends {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 20px;
+  margin-bottom: 15px;
+}
+.online {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #fff;
+  font-size: 14px;
+}
+
+.online img {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.online span {
+  font-size: 10px;
+  color: goldenrod;
 }
